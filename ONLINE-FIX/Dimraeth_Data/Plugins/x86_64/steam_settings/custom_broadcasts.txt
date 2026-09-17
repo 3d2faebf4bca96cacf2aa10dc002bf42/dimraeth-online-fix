@@ -1,8 +1,0 @@
-# OPTIONAL - only needed if the game cannot find the other player's lobby.
-#
-# Remove the "#" and put the other player's ZeroTier address here,
-# one address per line. For example:
-#   10.147.20.42
-#
-# This file is sent as UNICAST rather than broadcast, so it still works on
-# virtual networks that do not carry broadcast traffic.
