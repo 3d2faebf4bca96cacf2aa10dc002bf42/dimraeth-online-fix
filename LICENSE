@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Dimraeth Online Co-op Fix contributors
+Copyright (c) 2026 Dimraeth Online Fix contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,12 +22,23 @@ SOFTWARE.
 
 ---
 
-NOT COVERED BY THE MIT LICENCE ABOVE
+## Third-party components
 
-Dimraeth_Data/Plugins/x86_64/steam_api64.dll is the Goldberg Steam Emulator,
-an independent project by its own authors, licensed under the GNU Lesser
-General Public License v3.0 (LGPLv3). It is redistributed here unmodified.
-See https://github.com/mr_goldberg/goldberg_emulator for its source and licence.
+### Goldberg Steam Emulator
 
-Dimraeth is the property of its developers. This project is unofficial and is
-not affiliated with or endorsed by them.
+The `steam_api64.dll` in `package/` is the Goldberg Steam Emulator by Mr_Goldberg,
+licensed under the **GNU Lesser General Public License v3** (LGPLv3).
+
+- Project: https://gitlab.com/Mr_Goldberg/goldberg_emulator
+- The licence text ships with the upstream project.
+- The MIT licence above covers only the scripts, C# tools and documentation in
+  this repository. It does not apply to the emulator binary.
+
+### Steamworks SDK interfaces
+
+The emulator implements interfaces defined by Valve's Steamworks SDK. No Valve
+code or binaries are redistributed in this repository.
+
+### ZeroTier
+
+ZeroTier is referenced as an external dependency only; nothing is redistributed.
